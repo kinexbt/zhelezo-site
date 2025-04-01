@@ -22,6 +22,13 @@ export type ValidSkills =
   | "MySQL";
 
 export type ValidCategory =
+  | "Solana"
+  | "Ethereum"
+  | "BSC"
+  | "AI Agent"
+  | "Pumpfun"
+  | "NFT"
+  | "Bot"
   | "Full Stack"
   | "Frontend"
   | "Backend"
@@ -30,7 +37,7 @@ export type ValidCategory =
   | "Mobile Dev"
   | "3D Modeling";
 
-export type ValidExpType = "Personal Project" | "Professional";
+export type ValidExpType = "Solana" | "Ethereum" | "AI Agent" | "NFT" | "Pumpfun" | "Bot" | "BSC" ;
 
 export type ValidPages =
   | "home"

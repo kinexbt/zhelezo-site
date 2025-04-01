@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Naman Barkiya Portfolio",
-  authorName: "Naman Barkiya",
+  name: "Piter Jorbanov Portfolio",
+  authorName: "Piter Jorbanov",
   username: "namanbarkiya",
   description:
-    "Naman Barkiya is a Full Stack Developer, who loves to build web applications and is passionate about learning new technologies.",
+    "Piter Jorbanov is a Web3 Developer, who loves to build web applications and is passionate about learning new technologies.",
   url: "https://nbarkiya.xyz",
   links: {
     twitter: "https://x.com/namanbarkiya",
@@ -15,12 +15,12 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
-    "Naman Barkiya Portfolio",
-    "Naman Barkiya Blog",
-    "Naman Barkiya Projects",
-    "Naman Barkiya Experience",
-    "Naman Barkiya Resume",
+    "Piter Jorbanov",
+    "Piter Jorbanov Portfolio",
+    "Piter Jorbanov Blog",
+    "Piter Jorbanov Projects",
+    "Piter Jorbanov Experience",
+    "Piter Jorbanov Resume",
     "Next.js",
     "React",
     "Tailwind CSS",

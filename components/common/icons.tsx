@@ -65,6 +65,13 @@ import {
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
+  SiSolidity,
+  SiRemix,
+  SiPostgresql,
+  SiFedex,
+  SiDocker,
+  SiOpenai,
+  SiRust
 } from "react-icons/si";
 
 export const Icons = {
@@ -126,6 +133,12 @@ export const Icons = {
   linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+  solidity: SiSolidity,
+  remix: SiRemix,
+  docker:SiDocker,
+  openai:SiOpenai,
+  rust:SiRust,
+  postgresql:SiPostgresql,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"
