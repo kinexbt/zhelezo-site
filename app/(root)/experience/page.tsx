@@ -13,19 +13,19 @@ export const metadata: Metadata = {
 
 const renderContent = (tabVal: string) => {
   let expArr = Experiences;
-  if (tabVal === "personal") {
+  if (tabVal === "Ethereum") {
     expArr = expArr.filter((val) => val.type === "Ethereum");
-  } else if (tabVal === "professional") {
+  } else if (tabVal === "Solana") {
     expArr = expArr.filter((val) => val.type === "Solana");
-  }else if (tabVal === "professional") {
+  }else if (tabVal === "Pumpfun") {
     expArr = expArr.filter((val) => val.type === "Pumpfun");
-  }else if (tabVal === "professional") {
+  }else if (tabVal === "AI Agent") {
     expArr = expArr.filter((val) => val.type === "AI Agent");
-  }else if (tabVal === "professional") {
+  }else if (tabVal === "NFT") {
     expArr = expArr.filter((val) => val.type === "NFT");
-  }else if (tabVal === "professional") {
+  }else if (tabVal === "BSC") {
     expArr = expArr.filter((val) => val.type === "BSC");
-  }else if (tabVal === "professional") {
+  }else if (tabVal === "Bot") {
     expArr = expArr.filter((val) => val.type === "Bot");
   }
 
@@ -45,8 +45,9 @@ export default function ExperiencePage() {
       description={pagesConfig.experience.description}
     >
       <Tabs defaultValue="all" className="w-full">
-        <TabsList className="conatiner grid max-w-[50rem] grid-cols-7">
+        <TabsList className="conatiner grid max-w-[50rem] grid-cols-8">
           <TabsTrigger value="all">All</TabsTrigger>
+          <TabsTrigger value="AI Agent">AI Agent</TabsTrigger>
           <TabsTrigger value="Ethereum">Ethereum</TabsTrigger>
           <TabsTrigger value="Solana">Solana</TabsTrigger>
           <TabsTrigger value="BSC">BSC</TabsTrigger>
@@ -57,6 +58,7 @@ export default function ExperiencePage() {
         <TabsContent value="all" className="w-full">
           {renderContent("all")}
         </TabsContent>
+        <TabsContent value="AI Agent">{renderContent("AI Agent")}</TabsContent>
         <TabsContent value="Ethereum">
           {renderContent("Ethereum")}
         </TabsContent>

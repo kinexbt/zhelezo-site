@@ -25,10 +25,120 @@ export interface ExperienceInterface {
 
 export const Experiences: ExperienceInterface[] = [
   {
-    id: "solana-script",
-    companyName: "SolanaSCRIPTS",
+    id: "AIFlow",
+    companyName: "AIFlow",
+    tabval: "AI Agent",
+    type: "AI Agent",
+    category: ["AI Agent"],
+    shortDescription:
+      "Deploy scalable, secure AI agents with memory, modularity, multi-modal tasks, and seamless blockchain integration.",
+    websiteLink: "https://aiflow.guru/",
+    companyLogoImg: "/experience/builtdesign/AIFlow.png",
+  },
+  {
+    id: "bink_AI",
+    companyName: "bink AI",
+    tabval: "AI Agent",
+    type: "AI Agent",
+    category: ["BSC", "AI Agent"],
+    shortDescription:
+      "The First DeFAI Transactional Agent on BNB Chain. Tracks market trends, analyzes tickers. Execute swaps, bridge, launch memes, and optimize yield effortlessly",
+    websiteLink: "https://bink.ai/",
+    companyLogoImg: "/experience/builtdesign/bink_AI.png",
+  },
+  {
+    id: "swarm",
+    companyName: "swarm",
+    tabval: "AI Agent",
+    type: "AI Agent",
+    category: ["AI Agent"],
+    shortDescription:
+      "By combining Web3 technology with advanced AI capabilities through the Swarms framework, it provides institutional-grade insights into significant blockchain movements.",
+    websiteLink: "https://swarms.world/",
+    companyLogoImg: "/experience/builtdesign/swarm.png",
+  },
+  {
+    id: "uniswap",
+    companyName: "uniswap",
+    tabval: "Ethereum",
+    type: "Ethereum",
+    category: ["Ethereum"],
+    shortDescription:
+      "This repository contains the core smart contracts for the Uniswap V3 Protocol. For higher level contracts, see the uniswap-v3-periphery repository.",
+    websiteLink: "https://app.uniswap.org/",
+    companyLogoImg: "/experience/builtdesign/uniswap.png",
+  },
+  {
+    id: "polymath",
+    companyName: "polymath",
+    tabval: "Ethereum",
+    type: "Ethereum",
+    category: ["Ethereum"],
+    shortDescription:
+      "The Polymath Core smart contracts provide a system for launching regulatory-compliant securities tokens on a decentralized blockchain.",
+    websiteLink: "https://polymath.network/",
+    companyLogoImg: "/experience/builtdesign/polymath.png",
+  },
+  {
+    id: "galxe",
+    companyName: "galxe",
+    tabval: "Ethereum",
+    type: "Ethereum",
+    category: ["Ethereum"],
+    shortDescription:
+      "There are multiple opportunities to contribute at any level. It doesn't matter if you are just getting started with Solidity or are the most weathered expert, we can use your help.",
+    websiteLink: "https://www.galxe.com/",
+    companyLogoImg: "/experience/builtdesign/galxe.png",
+  },
+  {
+    id: "li.fi",
+    companyName: "li.fi",
+    tabval: "Ethereum",
+    type: "Ethereum",
+    category: ["Ethereum"],
+    shortDescription:
+      "One API to swap, bridge, and zap across all major blockchains and protocols. Enable trading across all DEX aggregators, bridges, and intent-systems and save hundreds of developer hours.",
+    websiteLink: "https://li.fi/",
+    companyLogoImg: "/experience/builtdesign/lifi.png",
+  },
+  {
+    id: "PioneerLegend",
+    companyName: "PioneerLegend",
     tabval: "Solana",
     type: "Solana",
+    category: ["Solana"],
+    shortDescription:
+      "This is the first idle game on SOL or any chain backed by three revenue sources, which include IRL crypto mining, Defi, and Taxes, with rev share to all NFT holders.",
+    websiteLink: "https://pioneerlegends.com/",
+    companyLogoImg: "/experience/builtdesign/PioneerLegend.png",
+  },
+  {
+    id: "reavers",
+    companyName: "REAVERS",
+    tabval: "Solana",
+    type: "Solana",
+    category: ["Solana"],
+    shortDescription:
+      "Reavers is more than just an idle game at the core. Reavers was engineered with an overarching theme that is as simple as it gets.",
+    websiteLink: "https://reavers.xyz/",
+    companyLogoImg: "/experience/builtdesign/reavers.png",
+  },
+  {
+    id: "druids",
+    companyName: "Druids",
+    tabval: "Solana",
+    type: "Solana",
+    category: ["Solana"],
+    shortDescription:
+      "An innovative solana game, realistic environment for users to evoke their imagination and inspiration to win and overcome all interceptions",
+    websiteLink: "https://www.druids.vip/",
+    companyLogoImg: "/experience/builtdesign/druids.png",
+  },
+  {
+    id: "solana-script",
+    companyName: "SolanaSCRIPTS",
+    tabval: "Bot",
+    type: "Bot",
     category: ["Solana", "Bot"],
     shortDescription:
       "An open-source volume bot written in Node.JS for Raydium. Create fast and cheap volume for your token using JITO.",
@@ -38,8 +148,8 @@ export const Experiences: ExperienceInterface[] = [
   {
     id: "pump_fun",
     companyName: "pump.fun",
-    tabval: "Solana",
-    type: "Solana",
+    tabval: "Pumpfun",
+    type: "Pumpfun",
     category: ["Solana", "Pumpfun"],
     shortDescription:
       "Solana Pump.fun Smart Contract: solana pumpfun smart contract, fork pumpfun frontend, backend, smart contract, pumpfun swap, pumpfun smart contract, fork pumpfun smart contract",
@@ -49,8 +159,8 @@ export const Experiences: ExperienceInterface[] = [
   {
     id: "kingkong",
     companyName: "app.ape",
-    tabval: "Solana",
-    type: "Solana",
+    tabval: "Pumpfun",
+    type: "Pumpfun",
     category: ["Ethereum", "Solana", "Pumpfun"],
     shortDescription:
       "This is pump.fun project on Solana/Ethereum network. Launch a coin that is instantly tradable without having to seed liquidity.",
@@ -80,7 +190,7 @@ export const Experiences: ExperienceInterface[] = [
     companyLogoImg: "/experience/builtdesign/mausoleum.png",
   },
   {
-    id: "metakongz",
+    id: "metakongz", 
     companyName: "metakongz",
     tabval: "NFT",
     type: "NFT",
@@ -146,81 +256,37 @@ export const Experiences: ExperienceInterface[] = [
     companyLogoImg: "/experience/builtdesign/foxfinance.png",
   },
   {
-    id: "uniswap",
-    companyName: "uniswap",
-    tabval: "Ethereum",
-    type: "Ethereum",
-    category: ["Ethereum"],
-    shortDescription:
-      "This repository contains the core smart contracts for the Uniswap V3 Protocol. For higher level contracts, see the uniswap-v3-periphery repository.",
-    websiteLink: "https://app.uniswap.org/",
-    companyLogoImg: "/experience/builtdesign/uniswap.png",
-  },
-  {
-    id: "polymath",
-    companyName: "polymath",
-    tabval: "Ethereum",
-    type: "Ethereum",
-    category: ["Ethereum"],
-    shortDescription:
-      "The Polymath Core smart contracts provide a system for launching regulatory-compliant securities tokens on a decentralized blockchain.",
-    websiteLink: "https://polymath.network/",
-    companyLogoImg: "/experience/builtdesign/polymath.png",
-  },
-  {
-    id: "galxe",
-    companyName: "galxe",
-    tabval: "Ethereum",
-    type: "Ethereum",
-    category: ["Ethereum"],
-    shortDescription:
-      "There are multiple opportunities to contribute at any level. It doesn't matter if you are just getting started with Solidity or are the most weathered expert, we can use your help.",
-    websiteLink: "https://www.galxe.com/",
-    companyLogoImg: "/experience/builtdesign/galxe.png",
-  },
-  {
-    id: "li.fi",
-    companyName: "li.fi",
-    tabval: "Ethereum",
-    type: "Ethereum",
-    category: ["Ethereum"],
-    shortDescription:
-      "One API to swap, bridge, and zap across all major blockchains and protocols. Enable trading across all DEX aggregators, bridges, and intent-systems and save hundreds of developer hours.",
-    websiteLink: "https://li.fi/",
-    companyLogoImg: "/experience/builtdesign/lifi.png",
-  },
-  {
-    id: "AIFlow",
-    companyName: "AIFlow",
-    tabval: "AI Agent",
-    type: "AI Agent",
-    category: ["AI Agent"],
-    shortDescription:
-      "Deploy scalable, secure AI agents with memory, modularity, multi-modal tasks, and seamless blockchain integration.",
-    websiteLink: "https://aiflow.guru/",
-    companyLogoImg: "/experience/builtdesign/AIFlow.png",
-  },
-  {
-    id: "bink_AI",
-    companyName: "bink AI",
+    id: "pigletz",
+    companyName: "Pigletz",
     tabval: "BSC",
     type: "BSC",
-    category: ["BSC", "AI Agent"],
+    category: ["BSC"],
     shortDescription:
-      "The First DeFAI Transactional Agent on BNB Chain. Tracks market trends, analyzes tickers. Execute swaps, bridge, launch memes, and optimize yield effortlessly",
-    websiteLink: "https://bink.ai/",
-    companyLogoImg: "/experience/builtdesign/bink_AI.png",
+      "Each piglet starts mining PiFi tokens from the day you buy it. You can deposit tokens in your piglet the way you deposit coins in a piggy bank.",
+    websiteLink: "https://github.com/PigletzNFT/pigletz-contracts",
+    companyLogoImg: "/experience/builtdesign/pigletz.png",
   },
   {
-    id: "swarm",
-    companyName: "swarm",
-    tabval: "AI Agent",
-    type: "AI Agent",
-    category: ["AI Agent"],
+    id: "Bloodoop",
+    companyName: "BloodLoop",
+    tabval: "BSC",
+    type: "BSC",
+    category: ["BSC"],
     shortDescription:
-      "By combining Web3 technology with advanced AI capabilities through the Swarms framework, it provides institutional-grade insights into significant blockchain movements.",
-    websiteLink: "https://swarms.world/",
-    companyLogoImg: "/experience/builtdesign/swarm.png",
+      "Each piglet starts mining PiFi tokens from the day you buy it. You can deposit tokens in your piglet the way you deposit coins in a piggy bank.",
+    websiteLink: "https://www.bloodloop.com/home",
+    companyLogoImg: "/experience/builtdesign/bloodloop.png",
+  },
+  {
+    id: "Raydium_Sniper",
+    companyName: "Raydium_Sniper",
+    tabval: "Bot",
+    type: "Bot",
+    category: ["Bot"],
+    shortDescription:
+      " The package includes two main bots: the Raydium Sniper Bot and the Meme Coin Bot. These bots help users efficiently manage their tokens, create markets, and optimize trading strategies.",
+    websiteLink: "https://github.com/justshiftjk/Solana-Sniper-Memecoin-Bot",
+    companyLogoImg: "/experience/builtdesign/raydium_bot.png",
   },
 ];
 

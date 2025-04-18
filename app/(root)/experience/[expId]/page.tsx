@@ -43,7 +43,6 @@ export default function Experience({ params }: ExperiencePageProps) {
           dateTime={Date.now().toString()}
           className="block text-sm text-muted-foreground"
         >
-          {formatDateFromObj(exp.startDate)}
         </time>
         <h1 className="flex items-center justify-between mt-2 font-heading text-4xl leading-tight lg:text-5xl">
           {exp.companyName}
@@ -101,7 +100,6 @@ export default function Experience({ params }: ExperiencePageProps) {
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-2">
           Tech Stack
         </h2>
-        <ChipContainer textArr={exp.techStack} />
       </div>
 
       <div className="mb-7 ">
@@ -109,37 +107,13 @@ export default function Experience({ params }: ExperiencePageProps) {
           Description
         </h2>
         {/* {<exp.descriptionComponent />} */}
-        <ExperienceDescription
-          paragraphs={exp.descriptionDetails.paragraphs}
-          bullets={exp.descriptionDetails.bullets}
-        />
       </div>
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
           Page Info
         </h2>
-        {exp.pagesInfoArr.map((page, ind) => (
-          <div key={ind}>
-            <h3 className="flex items-center font-heading text-xl leading-tight lg:text-xl mt-3">
-              <Icons.star className="h-5 w-5 mr-2" /> {page.title}
-            </h3>
-            <div>
-              <p>{page.description}</p>
-              {page.imgArr.map((img, ind) => (
-                <Image
-                  src={img}
-                  key={ind}
-                  alt={img}
-                  width={720}
-                  height={405}
-                  className="my-4 rounded-md border bg-muted transition-colors"
-                  priority
-                />
-              ))}
-            </div>
-          </div>
-        ))}
+      
       </div>
 
       <hr className="mt-12" />

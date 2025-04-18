@@ -10,6 +10,9 @@ import { Toaster } from "@/components/ui/toaster";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { ModalProvider } from "@/providers/modal-provider";
+import { useState } from "react";
+
+const [selectedOption, setSelectedOption] = useState(null);
 
 const fontSans = FontSans({
   subsets: ["latin"],
