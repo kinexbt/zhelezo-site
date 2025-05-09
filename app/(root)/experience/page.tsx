@@ -45,14 +45,12 @@ export default function ExperiencePage() {
       description={pagesConfig.experience.description}
     >
       <Tabs defaultValue="all" className="w-full">
-        <TabsList className="conatiner grid max-w-[50rem] grid-cols-8">
+        <TabsList className="conatiner grid max-w-[50rem] grid-cols-6">
           <TabsTrigger value="all">All</TabsTrigger>
           <TabsTrigger value="AI Agent">AI Agent</TabsTrigger>
           <TabsTrigger value="Ethereum">Ethereum</TabsTrigger>
           <TabsTrigger value="Solana">Solana</TabsTrigger>
           <TabsTrigger value="BSC">BSC</TabsTrigger>
-          <TabsTrigger value="NFT">NFT</TabsTrigger>
-          <TabsTrigger value="Pumpfun">Pumpfun</TabsTrigger>
           <TabsTrigger value="Bot">Bot</TabsTrigger>
         </TabsList>
         <TabsContent value="all" className="w-full">

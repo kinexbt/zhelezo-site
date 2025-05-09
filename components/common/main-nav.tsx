@@ -23,7 +23,6 @@ const norican = Norican({
   display: "swap",
 });
 
-// Animation variants for the navigation items
 const navItemVariants = {
   hidden: { opacity: 0, y: -20 },
   visible: (i: number) => ({

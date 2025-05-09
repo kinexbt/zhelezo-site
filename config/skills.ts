@@ -20,7 +20,7 @@ export const skillsUnsorted: skillsInterface[] = [
     description:
       "Develop fast, reliable, and memory-safe applications with Rust, ensuring high performance and seamless blockchain integration",
     rating: 5,
-    icon: Icons.solidity,
+    icon: Icons.rust,
   },
   {
     name: "OpenAI",
@@ -47,7 +47,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Docker",
     description:
       "Streamline development and deployment with Docker, enabling containerized applications, scalability, and efficient DevOps workflows.",
-    rating: 5,
+    rating: 4,
     icon: Icons.docker,
   },
   {
@@ -68,7 +68,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "express.js",
     description:
       "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
+    rating: 4,
     icon: Icons.express,
   },
   {

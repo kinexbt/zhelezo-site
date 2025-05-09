@@ -138,6 +138,7 @@ export const Icons = {
   docker:SiDocker,
   openai:SiOpenai,
   rust:SiRust,
+  fedex:SiFedex,
   postgresql:SiPostgresql,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
