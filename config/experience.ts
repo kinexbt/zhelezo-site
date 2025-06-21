@@ -37,7 +37,7 @@ export const Experiences: ExperienceInterface[] = [
   },
   {
     id: "bink_AI",
-    companyName: "bink AI",
+    companyName: "Bink AI",
     tabval: "AI Agent",
     type: "AI Agent",
     category: ["BSC", "AI Agent"],
@@ -48,7 +48,7 @@ export const Experiences: ExperienceInterface[] = [
   },
   {
     id: "swarm",
-    companyName: "swarm",
+    companyName: "Swarm",
     tabval: "AI Agent",
     type: "AI Agent",
     category: ["AI Agent"],
@@ -59,7 +59,7 @@ export const Experiences: ExperienceInterface[] = [
   },
   {
     id: "dextra",
-    companyName: "dextra",
+    companyName: "Dextra",
     tabval: "AI Agent",
     type: "AI Agent",
     category: ["AI Agent"],
@@ -92,7 +92,7 @@ export const Experiences: ExperienceInterface[] = [
   },
   {
     id: "polymath",
-    companyName: "polymath",
+    companyName: "Polymath",
     tabval: "Ethereum",
     type: "Ethereum",
     category: ["Ethereum"],
@@ -103,7 +103,7 @@ export const Experiences: ExperienceInterface[] = [
   },
   {
     id: "galxe",
-    companyName: "galxe",
+    companyName: "Galxe",
     tabval: "Ethereum",
     type: "Ethereum",
     category: ["Ethereum"],
@@ -114,7 +114,7 @@ export const Experiences: ExperienceInterface[] = [
   },
   {
     id: "li.fi",
-    companyName: "li.fi",
+    companyName: "Li.Fi",
     tabval: "Ethereum",
     type: "Ethereum",
     category: ["Ethereum"],
@@ -169,7 +169,7 @@ export const Experiences: ExperienceInterface[] = [
   },
   {
     id: "pump_fun",
-    companyName: "pump.fun",
+    companyName: "Pump.fun",
     tabval: "Solana",
     type: "Solana",
     category: ["Solana"],
@@ -177,116 +177,6 @@ export const Experiences: ExperienceInterface[] = [
       "Solana Pump.fun Smart Contract: solana pumpfun smart contract, fork pumpfun frontend, backend, smart contract, pumpfun swap, pumpfun smart contract, fork pumpfun smart contract",
     websiteLink: "https://pump.fun/board",
     companyLogoImg: "/experience/builtdesign/pump_fun.png",
-  },
-  {
-    id: "kingkong",
-    companyName: "app.ape",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Ethereum", "Solana"],
-    shortDescription:
-      "This is pump.fun project on Solana/Ethereum network. Launch a coin that is instantly tradable without having to seed liquidity.",
-    websiteLink: "https://app.ape.lol/",
-    companyLogoImg: "/experience/builtdesign/Kingkong.png",
-  },
-  {
-    id: "wheel_mc",
-    companyName: "wheel_mc",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "This is the wheel game by using $TOKE tokens on Solana. The spin result will be randomized fairly - Lost, 1.2X, 1.5X, 2X, Jackpot. Users can get reward as $TOKE tokens.",
-    websiteLink: "https://wheel.mctoken.xyz/",
-    companyLogoImg: "/experience/builtdesign/wheel.mctoken.png",
-  },
-  {
-    id: "mausoleum",
-    companyName: "Mausoleum",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "This is the auction platform that users can bid with several spl-tokens and the highest bidder(winner) will be receive the NFT.",
-    websiteLink: "https://auction-doge.vercel.app/auction",
-    companyLogoImg: "/experience/builtdesign/mausoleum.png",
-  },
-  {
-    id: "metakongz", 
-    companyName: "metakongz",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "Unlock passive rewards with NFT staking—seamlessly stake NFTs to earn tokens, boost utility, and enhance engagement in Web3 ecosystems.",
-    websiteLink: "https://metakongz-raffle-auction.vercel.app/raffle",
-    companyLogoImg: "/experience/builtdesign/metakongz.png",
-  },
-  {
-    id: "animal_pianet",
-    companyName: "raffle",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "This is the raffle project that winners can receive the raffle NFT or winners can buy NFTs by half price by buying tickets. You can buy tickets by using $PREY and $SOL.",
-    websiteLink: "https://apex-raffle.vercel.app/raffle",
-    companyLogoImg: "/experience/builtdesign/animal_pianet.png",
-  },
-  {
-    id: "luvami",
-    companyName: "luvami",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "This is the Dice game. The random number will be created in blockchain and compare the system's Dice and user's Dice.",
-    websiteLink: "hhttps://dice-game-frontend.vercel.app/",
-    companyLogoImg: "/experience/builtdesign/luvami.png",
-  },
-  {
-    id: "tac_staking",
-    companyName: "apedao",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "This is the traditional NFT staking project. Users stake their TAC NFTs and receive $BGA token.",
-    websiteLink: "hhttps://dice-game-frontend.vercel.app/",
-    companyLogoImg: "/experience/builtdesign/tac_staking.png",
-  },
-  {
-    id: "honey",
-    companyName: "honey",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "This is one of the big project, I have built NFT lending/borrowing system on Avalanche/Solana. You can lend and borrow NFT from this site and the price comes from the NFT oracle.",
-    websiteLink: "hhttps://dice-game-frontend.vercel.app/",
-    companyLogoImg: "/experience/builtdesign/honey.png",
-  },
-  {
-    id: "fox",
-    companyName: "fox",
-    tabval: "Solana",
-    type: "Solana",
-    category: ["Solana"],
-    shortDescription:
-      "This is one of the big project, I have built NFT lending/borrowing system on Avalanche/Solana. You can lend and borrow NFT from this site and the price comes from the NFT oracle.",
-    websiteLink: "https://foxfinance.io/Marketplace",
-    companyLogoImg: "/experience/builtdesign/foxfinance.png",
-  },
-  {
-    id: "pigletz",
-    companyName: "Pigletz",
-    tabval: "BSC",
-    type: "BSC",
-    category: ["BSC"],
-    shortDescription:
-      "Each piglet starts mining PiFi tokens from the day you buy it. You can deposit tokens in your piglet the way you deposit coins in a piggy bank.",
-    websiteLink: "https://github.com/PigletzNFT/pigletz-contracts",
-    companyLogoImg: "/experience/builtdesign/pigletz.png",
   },
   {
     id: "Bloodoop",
