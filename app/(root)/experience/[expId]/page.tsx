@@ -9,7 +9,7 @@ import CustomTooltip from "@/components/ui/custom-tooltip";
 import { Experiences } from "@/config/experience";
 import { siteConfig } from "@/config/site";
 import { cn, formatDateFromObj } from "@/lib/utils";
-import piterImg from "@/public/piter-img.jpg";
+import piterImg from "@/public/piter-img.png";
 
 interface ExperiencePageProps {
   params: {
