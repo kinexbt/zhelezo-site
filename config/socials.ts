@@ -14,12 +14,12 @@ export const SocialLinks: SocialInterface[] = [
     icon: Icons.gitHub,
     link: "https://github.com/kinexbt",
   },
-  {
-    name: "LinkedIn",
-    username: "Piter Jorbanov",
-    icon: Icons.linkedin,
-    link: "https://linkedin.com/in/johnjidev",
-  },
+  // {
+  //   name: "LinkedIn",
+  //   username: "Piter Jorbanov",
+  //   icon: Icons.linkedin,
+  //   link: "https://linkedin.com/in/johnjidev",
+  // },
   {
     name: "X",
     username: "@piterjorbanov",
