@@ -3,22 +3,19 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 import { Icons } from "@/components/common/icons";
-//import ExperienceDescription from "@/components/experience/exp-description";
 import { buttonVariants } from "@/components/ui/button";
 import ChipContainer from "@/components/ui/chip-container";
 import CustomTooltip from "@/components/ui/custom-tooltip";
 import { Experiences } from "@/config/experience";
 import { siteConfig } from "@/config/site";
 import { cn, formatDateFromObj } from "@/lib/utils";
-import namanImg from "@/public/naman-img.jpg";
+import piterImg from "@/public/piter-img.jpg";
 
 interface ExperiencePageProps {
   params: {
     expId: string;
   };
 }
-
-const githubUsername = "namanbarkiya";
 
 export default function Experience({ params }: ExperiencePageProps) {
   let exp = Experiences.find((val) => val.id === params.expId);
@@ -70,7 +67,7 @@ export default function Experience({ params }: ExperiencePageProps) {
             className="flex items-center space-x-2 text-sm"
           >
             <Image
-              src={namanImg}
+              src={piterImg}
               alt={"naman"}
               width={42}
               height={42}
