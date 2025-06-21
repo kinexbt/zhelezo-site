@@ -34,7 +34,7 @@ export default function GithubRedirectCard() {
       </CardContent>
       <CardFooter className="px-8 pb-8 pt-0">
         <Link
-          href={"https://github.com/namanbarkiya/minimal-next-portfolio"}
+          href={"https://github.com/zhelezo-site/"}
           target="_blank"
           className={cn(
             buttonVariants({ variant: "outline" }),

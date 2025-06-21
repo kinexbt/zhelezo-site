@@ -4,12 +4,12 @@ export const siteConfig = {
   username: "piterjorbanov",
   description:
     "Piter Jorbanov is a Web3 Developer, who loves to build web applications and is passionate about learning new technologies.",
-  url: "https://nbarkiya.xyz",
+  url: "https://www.kinexhub.com/",
   links: {
     twitter: "https://x.com/akratos_god",
-    github: "https://github.com/namanbarkiya",
+    github: "https://github.com/kinexbt",
   },
-  ogImage: "https://nbarkiya.xyz/naman-img.jpg",
+  ogImage: "https://www.kinexhub.com/piter-img.png",
   iconIco:
     "/favicon.ico",
   logoIcon:

@@ -51,7 +51,7 @@ export default function IndexPage() {
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="naman-barkiya-img"
+            alt="piter-img"
           />
           {/* </div> */}
           <AnimatedText
@@ -68,45 +68,6 @@ export default function IndexPage() {
           >
             Web3 Developer
           </AnimatedText>
-          {/* <Accordion
-                        type="single"
-                        collapsible
-                        className="flex items-center w-full max-w-[35rem]"
-                    >
-                        <AccordionItem value="main-ques" className="flex-1">
-                            <AccordionTrigger>
-                                <p className="flex items-center">
-                                    Can you guess my favorite coding problem?
-                                </p>
-                            </AccordionTrigger>
-                            <AccordionContent>
-                                &ldquo;Check if a given string is palindrome or
-                                not&rdquo;
-                                <Icons.laughEmoji className="w-4 h-5 md:w-5 ml-2" />
-                            </AccordionContent>
-                        </AccordionItem>
-                        <DropdownMenu>
-                            <DropdownMenuTrigger
-                                asChild
-                                className="cursor-pointer"
-                            >
-                                <Icons.questionMark className="w-5 h-5 ml-3 text-muted-foreground " />
-                            </DropdownMenuTrigger>
-                            <DropdownMenuContent className="w-56">
-                                <DropdownMenuLabel className="flex items-center text-muted-foreground">
-                                    <Icons.infoMark className="w-4 h-4 mr-2" />
-                                    Hint: Naman
-                                </DropdownMenuLabel>
-                            </DropdownMenuContent>
-                        </DropdownMenu>
-                    </Accordion> */}
-
-          {/* <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-                        Full-stack web developer with two years&apos; experience
-                        who is innovative and ambitious. Excellent analytical
-                        and creative abilities, with a heavy emphasis on writing
-                        well-documented code.
-                    </p> */}
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
