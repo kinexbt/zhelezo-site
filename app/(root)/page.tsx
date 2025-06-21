@@ -110,7 +110,7 @@ export default function IndexPage() {
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
-                href={"https://github.com/piterjb"}
+                href={"https://github.com/kinexbt"}
                 target="_blank"
                 className={cn(buttonVariants({ size: "lg" }))}
               >

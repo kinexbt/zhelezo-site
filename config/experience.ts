@@ -197,7 +197,7 @@ export const Experiences: ExperienceInterface[] = [
     category: ["Bot"],
     shortDescription:
       " The package includes two main bots: the Raydium Sniper Bot and the Meme Coin Bot. These bots help users efficiently manage their tokens, create markets, and optimize trading strategies.",
-    websiteLink: "https://github.com/piterjb/Raydium_sniper",
+    websiteLink: "https://github.com/kinexbt/Raydium_sniper",
     companyLogoImg: "/experience/builtdesign/raydium_bot.png",
   },
   {
@@ -208,7 +208,7 @@ export const Experiences: ExperienceInterface[] = [
     category: ["Bot"],
     shortDescription:
       " Pump.fun Bundler and the Meme Coin Launcher. These tools enable users to streamline token launches, bundle transactions effectively, and maximize exposure and execution speed during early trading phases.",
-    websiteLink: "https://github.com/piterjb/pumpfun_bundler",
+    websiteLink: "https://github.com/kinexbt/pumpfun_bundler",
     companyLogoImg: "/experience/builtdesign/pumpfun_bundler.png",
   },
   {
@@ -219,7 +219,7 @@ export const Experiences: ExperienceInterface[] = [
     category: ["Bot"],
     shortDescription:
       " The Raydium Bundler streamlines token launch and trading by combining actions into a single, efficient transaction—ideal for executing fast, optimized strategies and managing liquidity with precision.",
-    websiteLink: "https://github.com/piterjb/raydium_bundler",
+    websiteLink: "https://github.com/kinexbt/raydium_bundler",
     companyLogoImg: "/experience/builtdesign/raydium_bundler.png",
   },
 ];

@@ -12,7 +12,7 @@ export const SocialLinks: SocialInterface[] = [
     name: "Github",
     username: "@piterjorbanov",
     icon: Icons.gitHub,
-    link: "https://github.com/piterjb",
+    link: "https://github.com/kinexbt",
   },
   {
     name: "LinkedIn",
@@ -24,7 +24,7 @@ export const SocialLinks: SocialInterface[] = [
     name: "X",
     username: "@piterjorbanov",
     icon: Icons.twitter,
-    link: "https://x.com/piter_sinny",
+    link: "https://x.com/lightofdark_000",
   },
   {
     name: "Gmail",
