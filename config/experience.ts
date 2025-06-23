@@ -110,7 +110,7 @@ export const Experiences: ExperienceInterface[] = [
     shortDescription:
       "Copy trading bot that can notice instantly of target account's transaction. Fully customzid for clients' hobby, benefit",
     websiteLink: "https://t.me/xrpl_goat_bot",
-    companyLogoImg: "/experience/builtdesign/xrpl_sniper.png",
+    companyLogoImg: "/experience/builtdesign/xrpl_copytrade.png",
   },
   {
     id: "xrpl_trading",
@@ -121,7 +121,7 @@ export const Experiences: ExperienceInterface[] = [
     shortDescription:
       "Simple trading bot that can buy and sell token on XRPL AMM and make users feel comfortable and flexible, resonable price",
     websiteLink: "https://t.me/xrpl_goat_bot",
-    companyLogoImg: "/experience/builtdesign/xrpl_sniper.png",
+    companyLogoImg: "/experience/builtdesign/xrpl_trade.png",
   },
   {
     id: "polymath",
