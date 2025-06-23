@@ -91,6 +91,39 @@ export const Experiences: ExperienceInterface[] = [
     companyLogoImg: "/experience/builtdesign/supply.png",
   },
   {
+    id: "xrpl_sniper",
+    companyName: "XRPL AMM Sniper",
+    tabval: "XRPL",
+    type: "XRPL",
+    category: ["XRPL"],
+    shortDescription:
+      "Sniping bot that can detect and buy token firstly on xrpl-AMM with maximum speed and efficient price, comprehensive rug check",
+    websiteLink: "https://t.me/xrpl_goat_bot",
+    companyLogoImg: "/experience/builtdesign/xrpl_sniper.png",
+  },
+  {
+    id: "xrpl_copytrading",
+    companyName: "XRPL Copy Trading",
+    tabval: "XRPL",
+    type: "XRPL",
+    category: ["XRPL"],
+    shortDescription:
+      "Copy trading bot that can notice instantly of target account's transaction. Fully customzid for clients' hobby, benefit",
+    websiteLink: "https://t.me/xrpl_goat_bot",
+    companyLogoImg: "/experience/builtdesign/xrpl_sniper.png",
+  },
+  {
+    id: "xrpl_trading",
+    companyName: "XRPL Trading",
+    tabval: "XRPL",
+    type: "XRPL",
+    category: ["XRPL"],
+    shortDescription:
+      "Simple trading bot that can buy and sell token on XRPL AMM and make users feel comfortable and flexible, resonable price",
+    websiteLink: "https://t.me/xrpl_goat_bot",
+    companyLogoImg: "/experience/builtdesign/xrpl_sniper.png",
+  },
+  {
     id: "polymath",
     companyName: "Polymath",
     tabval: "Ethereum",

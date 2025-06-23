@@ -50,6 +50,7 @@ export default function ExperiencePage() {
           <TabsTrigger value="AI Agent">AI Agent</TabsTrigger>
           <TabsTrigger value="Ethereum">Ethereum</TabsTrigger>
           <TabsTrigger value="Solana">Solana</TabsTrigger>
+          <TabsTrigger value="XRPL">XRPL</TabsTrigger>
           <TabsTrigger value="BSC">BSC</TabsTrigger>
           <TabsTrigger value="Bot">Bot</TabsTrigger>
         </TabsList>

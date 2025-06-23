@@ -35,9 +35,10 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "XRPL";
 
-export type ValidExpType = "Solana" | "Ethereum" | "AI Agent" | "NFT" | "Pumpfun" | "Bot" | "BSC" ;
+export type ValidExpType = "Solana" | "Ethereum" | "AI Agent" | "NFT" | "Pumpfun" | "Bot" | "BSC" | "XRPL" ;
 
 export type ValidPages =
   | "home"
