@@ -45,7 +45,7 @@ export default function ExperiencePage() {
       description={pagesConfig.experience.description}
     >
       <Tabs defaultValue="all" className="w-full">
-        <TabsList className="conatiner grid max-w-[50rem] grid-cols-6">
+        <TabsList className="conatiner grid max-w-[50rem] grid-cols-7">
           <TabsTrigger value="all">All</TabsTrigger>
           <TabsTrigger value="AI Agent">AI Agent</TabsTrigger>
           <TabsTrigger value="Ethereum">Ethereum</TabsTrigger>
