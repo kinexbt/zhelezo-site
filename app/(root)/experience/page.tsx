@@ -13,18 +13,14 @@ export const metadata: Metadata = {
 
 const renderContent = (tabVal: string) => {
   let expArr = Experiences;
-  if (tabVal === "Ethereum") {
-    expArr = expArr.filter((val) => val.type === "Ethereum");
+  if (tabVal === "EVM") {
+    expArr = expArr.filter((val) => val.type === "EVM");
   } else if (tabVal === "Solana") {
     expArr = expArr.filter((val) => val.type === "Solana");
-  }else if (tabVal === "Pumpfun") {
-    expArr = expArr.filter((val) => val.type === "Pumpfun");
+  }else if (tabVal === "XRPL") {
+    expArr = expArr.filter((val) => val.type === "XRPL");
   }else if (tabVal === "AI Agent") {
     expArr = expArr.filter((val) => val.type === "AI Agent");
-  }else if (tabVal === "NFT") {
-    expArr = expArr.filter((val) => val.type === "NFT");
-  }else if (tabVal === "BSC") {
-    expArr = expArr.filter((val) => val.type === "BSC");
   }else if (tabVal === "Bot") {
     expArr = expArr.filter((val) => val.type === "Bot");
   }
@@ -47,24 +43,21 @@ export default function ExperiencePage() {
       <Tabs defaultValue="all" className="w-full">
         <TabsList className="conatiner grid max-w-[50rem] grid-cols-7">
           <TabsTrigger value="all">All</TabsTrigger>
-          <TabsTrigger value="AI Agent">AI Agent</TabsTrigger>
-          <TabsTrigger value="Ethereum">Ethereum</TabsTrigger>
           <TabsTrigger value="Solana">Solana</TabsTrigger>
           <TabsTrigger value="XRPL">XRPL</TabsTrigger>
-          <TabsTrigger value="BSC">BSC</TabsTrigger>
+          <TabsTrigger value="EVM">EVM</TabsTrigger>
           <TabsTrigger value="Bot">Bot</TabsTrigger>
+          <TabsTrigger value="AI Agent">AI Agent</TabsTrigger>
         </TabsList>
         <TabsContent value="all" className="w-full">
           {renderContent("all")}
         </TabsContent>
         <TabsContent value="AI Agent">{renderContent("AI Agent")}</TabsContent>
-        <TabsContent value="Ethereum">
-          {renderContent("Ethereum")}
+        <TabsContent value="EVM">
+          {renderContent("EVM")}
         </TabsContent>
         <TabsContent value="Solana">{renderContent("Solana")}</TabsContent>
-        <TabsContent value="BSC">{renderContent("BSC")}</TabsContent>
-        <TabsContent value="NFT">{renderContent("NFT")}</TabsContent>
-        <TabsContent value="Pumpfun">{renderContent("Pumpfun")}</TabsContent>
+        <TabsContent value="XRPL">{renderContent("XRPL")}</TabsContent>
         <TabsContent value="Bot">{renderContent("Bot")}</TabsContent>
       </Tabs>
     </PageContainer>

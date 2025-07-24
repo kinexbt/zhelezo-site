@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Piter Jorbanov Portfolio",
-  authorName: "Piter Jorbanov",
+  name: "Petter Nilsson Portfolio",
+  authorName: "Petter Nilsson",
   username: "piterjorbanov",
   description:
-    "Piter Jorbanov is a Web3 Developer, who loves to build web applications and is passionate about learning new technologies.",
+    "Petter Nilsson is a Web3 Developer, who loves to build web applications and is passionate about learning new technologies.",
   url: "https://www.kinexhub.com/",
   links: {
     twitter: "https://x.com/akratos_god",
@@ -11,16 +11,16 @@ export const siteConfig = {
   },
   ogImage: "https://www.kinexhub.com/piter-img.png",
   iconIco:
-    "/favicon.ico",
+    "/logo.png",
   logoIcon:
     "/logo.png",
   keywords: [
-    "Piter Jorbanov",
-    "Piter Jorbanov Portfolio",
-    "Piter Jorbanov Blog",
-    "Piter Jorbanov Projects",
-    "Piter Jorbanov Experience",
-    "Piter Jorbanov Resume",
+    "Petter Nilsson",
+    "Petter Nilsson Portfolio",
+    "Petter Nilsson Blog",
+    "Petter Nilsson Projects",
+    "Petter Nilsson Experience",
+    "Petter Nilsson Resume",
     "Next.js",
     "React",
     "Tailwind CSS",

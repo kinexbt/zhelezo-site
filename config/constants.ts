@@ -23,7 +23,7 @@ export type ValidSkills =
 
 export type ValidCategory =
   | "Solana"
-  | "Ethereum"
+  | "EVM"
   | "BSC"
   | "AI Agent"
   | "Pumpfun"
@@ -38,7 +38,7 @@ export type ValidCategory =
   | "3D Modeling"
   | "XRPL";
 
-export type ValidExpType = "Solana" | "Ethereum" | "AI Agent" | "NFT" | "Pumpfun" | "Bot" | "BSC" | "XRPL" ;
+export type ValidExpType = "Solana" | "EVM" | "AI Agent" | "Bot" | "XRPL" ;
 
 export type ValidPages =
   | "home"

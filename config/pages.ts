@@ -18,7 +18,7 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Piter Jorbanov's portfolio website.",
+      description: "Petter Nilsson's portfolio website.",
     },
   },
   skills: {
@@ -27,7 +27,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Skills",
       description:
-        "Piter Jorbanov's key skills that define his professional identity.",
+        "Petter Nilsson's key skills that define his professional identity.",
     },
   },
   experience: {
@@ -35,7 +35,7 @@ export const pagesConfig: PagesConfig = {
     description: "Highlighting career journey and impactful projects.",
     metadata: {
       title: "Experience",
-      description: "Piter Jorbanov's experience in building web applications.",
+      description: "Petter Nilsson's experience in building web applications.",
     },
   },
   contact: {
@@ -43,7 +43,7 @@ export const pagesConfig: PagesConfig = {
     description: "Let's connect and explore collaborations.",
     metadata: {
       title: "Contact",
-      description: "Contact Piter Jorbanov.",
+      description: "Contact Petter Nilsson.",
     },
   },
   contributions: {
@@ -52,15 +52,15 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Contributions",
       description:
-        "Piter Jorbanov's open-source contributions and community involvement.",
+        "Petter Nilsson's open-source contributions and community involvement.",
     },
   },
   resume: {
     title: "Resume",
-    description: "Piter Jorbanov's resume.",
+    description: "Petter Nilsson's resume.",
     metadata: {
       title: "Resume",
-      description: "Piter Jorbanov's resume.",
+      description: "Petter Nilsson's resume.",
     },
   },
 };

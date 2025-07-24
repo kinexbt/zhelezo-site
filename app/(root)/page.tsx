@@ -59,7 +59,7 @@ export default function IndexPage() {
             delay={0.2}
             className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Piter Jorbanov
+            Petter Nilsson
           </AnimatedText>
           <AnimatedText
             as="h3"
